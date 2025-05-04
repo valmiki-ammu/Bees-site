@@ -1,38 +1,161 @@
-.App {
-  text-align: center;
+body {
+  background: linear-gradient(to right, #b2f1f3, #b1f9d9);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-custom {
+  background-color: white;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link {
+  color: #555 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-link.active {
+  color: #007bff !important;
+  font-weight: bold;
+}
+
+.get-started-btn {
+  background: linear-gradient(to right, #007bff, #2196f3);
+  border: none;
   color: white;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+.img-logo {
+  width: 100px;
+  height: 100px;
+}
+.highlight {
+  color: #0056d2;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.stat-card {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  padding: 1rem 1.5rem;
+  display: inline-block;
+}
+.btn-primary {
+  background-color: #003CFF;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 2rem;
+}
+.google-reviews {
+  font-size: 1.2rem;
+  margin-top: 70px;
+}
+.stats-overlay {
+  position: absolute;
+  background: white;
+  border-radius: 1.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.imgsize {
+width: 55rem;
+height: 55rem;
+}
+.strip {
+  width: 230px;
+height: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.slider-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mySwiper {
+  padding-bottom: 40px;
+}
+
+.slide {
+  width: 300px;
+  height: 400px;
+}
+
+.card {
+  position: relative;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+  background-color: #fff;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .content {
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  color: #fff;
+  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+  width: 100%;
+}
+
+.card .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card .price {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: #000;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.card .rating {
+  font-size: 1rem;
+  margin-top: 5px;
+  color: orange;
+}
+.slider-container {
+  max-width: 100%;
+  padding: 40px 0;
+}
+
+.swiper {
+  padding-bottom: 30px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.4s ease;
+}
+
+.image-wrapper {
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
