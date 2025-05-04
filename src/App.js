@@ -27,7 +27,10 @@ function App() {
       <ContactForm />
       <Cardstype />
       <Footer />  
-<h1>bhaskar</h1>
+
+<h2>this is bhaskar</h2>
+
+
     </div>
   );
 }
