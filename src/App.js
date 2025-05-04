@@ -28,6 +28,7 @@ function App() {
       <Cardstype />
       <Footer />  
       <h1>this is the line added</h1> 
+      <h2>this is added new line</h2>
     </div>
   );
 }
