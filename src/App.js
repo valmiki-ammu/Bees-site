@@ -28,7 +28,7 @@ function App() {
       <Cardstype />
       <Footer />  
 
-<h2>this is bhaskar</h2>
+
 
 
     </div>
