@@ -26,7 +26,8 @@ function App() {
       <Beesimportant />
       <ContactForm />
       <Cardstype />
-      <Footer />   
+      <Footer />  
+      <h1>this is the line added</h1> 
     </div>
   );
 }
